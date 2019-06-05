@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>gybcb</name>
+    <description>gybcb repo</description>
+    <owner type="project">
+	  <email>xxxxx@gmail.com</email>
+      <name>gybcb</name>
+    </owner>
+    <source type="git">https://github.com/gybcb/gentoo_overlay.git</source>
+  </repo>
+</repositories>
