@@ -11,8 +11,10 @@ HOMEPAGE="http://www.wps.cn/product/wpslinux/ http://wps-community.org/"
 
 KEYWORDS="~amd64 ~x86"
 
+# amd64? ( http://kdl.cc.ksosoft.com/wps-community/download/${MY_PV}/${PN}_${PV}_amd64.deb )
+
 SRC_URI="
-	amd64? ( http://kdl.cc.ksosoft.com/wps-community/download/${MY_PV}/${PN}_${PV}_amd64.deb )
+	amd64? ( https://wdl1.cache.wps.cn/wps/download/ep/Linux2019/${MY_PV}/${PN}_${PV}_amd64.deb)
 	x86? ( http://kdl.cc.ksosoft.com/wps-community/download/${MY_PV}/${PN}_${PV}_i386.deb )
 "
 
@@ -42,7 +44,6 @@ RDEPEND="
 
 	dev-libs/libpcre:3
 	dev-libs/libffi
-#	media-sound/pulseaudio
 	app-arch/bzip2:0
 	media-libs/libpng:0
 	dev-libs/expat
